@@ -1,0 +1,19 @@
+
+/* Some sample styles*/
+
+body {
+    background: lavender;
+}
+
+h1, p {
+    color: green;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    border-radius: 3px;
+    margin: 5px
+}
