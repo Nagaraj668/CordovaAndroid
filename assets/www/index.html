@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Page Title</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="materialize/css/materialize.css">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/custom-script.js">
     </script>
     <script type="text/javascript" src="cordova.js"></script>
-
+    <link rel="stylesheet" href="materialize/js/materialize.js">
 </head>
 <body>
 
-<h1>Cordova Hybrid App</h1>
+<h4>Cordova Hybrid App</h4>
 <p>Hello World!!</p>
 
-<button onclick="getData()">Get Data</button>
-<button onclick="postData()">Post Data</button>
+<button onclick="getData()" class="btn">Get Data</button>
+<button onclick="postData()" class="btn">Post Data</button>
 
 <p>GET Method Response:</p>
 <p id="get-response"></p>
