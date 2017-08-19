@@ -13,6 +13,7 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
         android:hardwareAccelerated="true"
         android:icon="@mipmap/icon"
@@ -33,5 +34,5 @@
     </application>
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="25" />
+        android:targetSdkVersion="23" />
 </manifest>

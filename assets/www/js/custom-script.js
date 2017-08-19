@@ -1,5 +1,5 @@
 
-var URL = "http://192.168.0.5/http/";
+var URL = "http://192.168.0.7/http/";
 var requestData = {
     name: 'Nagaraj',
     ID: 3123
@@ -33,4 +33,13 @@ function postData() {
             console.log("Status: " + status + "\nResponse: "+ JSON.stringify(data));
         }
     });
+}
+
+function download () {
+    cordova.exec(function(winParam) {},
+                 function(error) {},
+                 "PDFDownloadPlugin",
+                 "0",
+                 ["firstArgument", "secondArgument", 42, false]);
+
 }
